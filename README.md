@@ -2,8 +2,7 @@
 
 ## Overview
 
-The IoT Farm Project is a monitoring and automation system designed for hydroponic farming, utilizing AWS and Terraform. This system leverages sensors and actuators to create an intelligent environment for plant growth, with data collection, analysis, and visualization all managed through AWS services. By automating these processes, the project aims to optimize farming conditions and improve yield through real-time insights.
-
+The IoT Farm Project is a monitoring and automation system designed for hydroponic farming, utilizing AWS and Terraform. The system uses Arduino-connected sensors and actuators to create an intelligent environment for plant growth, with cloud-based data collection, analysis, and visualization. The project aims to optimize farming conditions and improve yield through real-time insights and automation.
 
 ### Key Components
 
@@ -13,7 +12,7 @@ The IoT Farm Project is a monitoring and automation system designed for hydropon
 - **Amazon Kinesis**: Real-time stream processing for monitoring data in real time.
 - **Amazon SNS**: Sends alerts via email or SMS when certain conditions are met.
 - **Amazon CloudWatch**: Monitors the performance of AWS services and manages logs.
-- **AWS IoT SiteWise**: Provides a digital twin of assets for monitoring and analytics.
+- **AWS IoT SiteWise**: Provides a digital copy of assets for monitoring and analytics.
 - **AWS IAM**: Manages permissions and access controls for all resources.
 - **AWS Elastic Beanstalk**: Hosts the Node.js frontend for visualizing data and controlling devices.
 - **Arduino**: Collects data from sensors and transmits it to AWS IoT Core.
