@@ -1,6 +1,6 @@
 # IoT Farm
 
-## Overview
+## Project Plan
 
 The IoT Farm Project is a monitoring and automation system designed for hydroponic farming, utilizing AWS and Terraform. The system uses Arduino-connected sensors and actuators to create an intelligent environment for plant growth, with cloud-based data collection, analysis, and visualization. The project aims to optimize farming conditions and improve yield through real-time insights and automation.
 
